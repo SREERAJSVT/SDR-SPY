@@ -89,4 +89,10 @@ Special Thanks NA5Y,YD1GSE,VU3ZOF,JLCPCB.
 
 MORE DETAILS AND PROGRAM COMINSOON
 
+11Nov2023
+#UPDATE
+It appears that there are issues with the voltage lines on version 1.0 of the ESP32A1S PCB and the Mixer fst3253 board. 
+Specifically, the 3.3V line on the MCU board is shorted to ground, and the si5351 is not receiving power as its 3.3V line is not connected to the regulator.
+For a more detailed report and corrections made, you can refer to the Master Document available at the following link: Correction On SDR.
+https://github.com/SREERAJSVT/SDR-SPY/blob/main/DOCUMENTATION/Correction%20On%20SDR%20.docx
  
